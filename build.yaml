@@ -1,0 +1,7 @@
+
+include:
+  - board: akdk_bt1
+    shield: minima40
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artificial-name: Minima40

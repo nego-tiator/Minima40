@@ -1,0 +1,11 @@
+
+file_format: "1"
+id: minima40
+name: minima40
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
