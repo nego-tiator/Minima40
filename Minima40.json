@@ -2724,6 +2724,8 @@
         "tentingAngle": 0,
         "topRim": 3,
         "bottomRim": 3,
+        "chamferHeight": 2,
+        "chamferAngle": 30,
         "switchEmbankment": 0,
         "snapDirection": "horizontal"
     }
