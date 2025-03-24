@@ -16,9 +16,9 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE  &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6     &kp N7         &kp N8            &kp N9    &kp N0  &trans
-&trans     &kp LBKT  &kp RBKT  &kp FSLH  &kp BSLH  &kp CAPS  &kp MINUS  &kp EQUAL      &kp SEMI          &kp APOS  &trans
-&trans     &trans    &trans    &trans    &trans    &trans    &trans     &kp LESS_THAN  &kp GREATER_THAN
+&kp GRAVE  &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6     &kp N7     &kp N8      &kp N9    &kp N0  &trans
+&trans     &kp LBKT  &kp RBKT  &kp FSLH  &kp BSLH  &kp CAPS  &kp MINUS  &kp EQUAL  &kp SEMI    &kp APOS  &trans
+&trans     &trans    &trans    &trans    &trans    &trans    &trans     &kp COMMA  &kp PERIOD
            &trans    &trans    &trans    &trans    &trans    &trans
             >;
         };
