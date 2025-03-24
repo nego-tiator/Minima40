@@ -16,19 +16,19 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6     &kp N7         &kp N8            &kp N9    &kp N0  &trans
+&trans     &kp LBKT  &kp RBKT  &kp FSLH  &kp BSLH  &kp CAPS  &kp MINUS  &kp EQUAL      &kp SEMI          &kp APOS  &trans
+&trans     &trans    &trans    &trans    &trans    &trans    &trans     &kp LESS_THAN  &kp GREATER_THAN
+           &trans    &trans    &trans    &trans    &trans    &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &kp F1           &kp F2             &kp F3      &kp F4  &kp F5  &kp F6    &kp F7    &kp F8  &kp F9     &kp F10  &kp DELETE
+&kp LS(TAB)  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans       &trans           &trans             &trans      &trans  &trans  &trans    &trans    &trans
+             &trans           &trans             &trans      &trans  &trans  &trans
             >;
         };
 
