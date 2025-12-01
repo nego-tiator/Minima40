@@ -1,0 +1,3 @@
+
+config SHIELD_MINIMA40_V2
+    def_bool $(shields_list_contains,minima40_v2)

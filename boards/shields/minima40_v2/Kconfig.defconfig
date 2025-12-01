@@ -1,0 +1,7 @@
+
+if SHIELD_MINIMA40_V2
+
+config ZMK_KEYBOARD_NAME
+    default "minima40_v2"
+
+endif
